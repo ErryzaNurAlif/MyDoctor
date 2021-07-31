@@ -1,3 +1,3 @@
 // export * from './dummy';
-// export * from  './icon';
-export * from './illustration/illustration.js';
+export * from  './icon/icon';
+export * from './illustration/illustration';

@@ -1,9 +1,13 @@
 import React from 'react';
-import {Splash, GetStarted} from './pages/pages';
+import {NavigationContainer} from '@react-navigation/native';
+import Router from './Router/router';
 
- 
 const App = () => {
-  return <GetStarted />
+  return (
+    <NavigationContainer>
+      <Router />
+    </NavigationContainer>
+  );
 };
 
 export default App; 
