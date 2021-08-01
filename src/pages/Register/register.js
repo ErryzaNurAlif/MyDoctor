@@ -10,11 +10,15 @@ const Register = ({navigation}) => {
 
       <View style={styles.content}>
         <Input label="Full Name" />
+        <Gap height={24} />
         <Input label="Pekerjaan" />
+        <Gap height={24} />
         <Input label="Email Address" />
+        <Gap height={24} />
         <Input label="Password" />
+        <Gap height={40} />
 
-        <Button title="Continue" />
+        <Button title="Continue" onPress={() =>  navigation.navigate('UploadPhoto')} />
       </View>
     </View>
   );
